@@ -1,0 +1,13 @@
+[Unit]
+Description=Jackett Daemon
+Documentation=https://github.com/Jackett/Jackett/wiki
+After=network.target
+
+[Service]
+User=root
+Restart=on-failure
+WorkingDirectory=/usr/local/share/prometheus/
+ExecStart=/opt/Jackett/jackett
+
+[Install]
+WantedBy=multi-user.target
