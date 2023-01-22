@@ -2,6 +2,6 @@
 ## 如何使用？
 执行以下命令：
 ### CURL
-`curl -ffsL`
+`sudo cd /etc/systemd/system && curl -ffsL https://github.com/AkarinLiu/jackett.service/raw/master/jackett.service`
 ### WGET
-`wget `
+`sudo cd /etc/systemd/system && wget https://github.com/AkarinLiu/jackett.service/raw/master/jackett.service`
