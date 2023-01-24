@@ -7,7 +7,7 @@ After=network.target
 User=jackett
 Restart=on-failure
 WorkingDirectory=/usr/local/share/prometheus/
-ExecStart=/opt/Jackett/jackett
+ExecStart=screen /opt/Jackett/jackett
 
 [Install]
 WantedBy=multi-user.target
